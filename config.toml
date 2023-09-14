@@ -18,8 +18,8 @@ LinkContractAddress = "0x33f4212b027E22aF7e6BA21Fc572843C0D701CD1"
 
 [[EVM.Nodes]]
 name = "XdcApothem"
-wsUrl = "wss://wss-apothem.go140point6.com"
-httpUrl = 'https://rpc-apothem.go140point6.com/'
+wsUrl = "wss://apothem.xdcrpc.com/ws"
+httpUrl = 'https://apothem.xdcrpc.com/'
 
 [Feature]
 FeedsManager = false # Default
