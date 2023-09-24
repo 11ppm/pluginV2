@@ -15,11 +15,24 @@ ChainID = '50'
 Enabled = true #Default
 LinkContractAddress = "0xFf7412Ea7C8445C46a8254dFB557Ac1E48094391"
 
+# ChainID = '51'
+# Enabled = true #Default
+# LinkContractAddress = "0x33f4212b027e22af7e6ba21fc572843c0d701cd1"
+
 
 [[EVM.Nodes]]
 name = "XdcMainnet"
 wsUrl = "wss://ws.xinfin.network"
 httpUrl = 'https://erpc.xinfin.network'
+
+# 11ppm MN-Mainnet
+# wss://ws.11ppm.com
+# https://rpc.11ppm.com
+
+# 11ppm MN-Apothem
+# name = "XdcApothem"
+# wsUrl = "wss://ws-apothem.11ppm.com"
+# httpUrl = 'https://rpc-apothem.11ppm.com'
 
 [Feature]
 FeedsManager = false # Default
